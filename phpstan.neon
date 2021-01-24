@@ -1,0 +1,10 @@
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    checkMissingIterableValueType: false
+    ignoreErrors:
+        - '#with a nullable type declaration#'
+        - '#with null as default value#'
+        - '#formatWithDecimal#'
